@@ -19,8 +19,14 @@ branches help keep new or experimental features separate from the main applicati
 
 How do the diagrams help you visualize the branch structure?
 
+they clarify where a branch begins and indicate which commits might be unreachable
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+merging two branches introduces all non-conflicting changes to a doc and thus effectively eliminates the secondary branch
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+pros of automatic is that it's faster, cons is that some commits may be concealed as it doesn't always detect relationships between additions and subtractions
