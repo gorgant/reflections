@@ -11,12 +11,12 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Clone replicates a repository but does not include any attribution.  Fork is similar to clone but it includes attribution. Branches are simply iterations within a repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+	Allows you to compare your current local environment to the most recent pull of the remote environment
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
